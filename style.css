@@ -1,0 +1,368 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    
+}
+body
+{
+    font-family: sans-serif;
+    
+}
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar
+{
+    background-image: linear-gradient(to right, #228B22, #006400);
+    padding: 0 !important;
+}
+
+.navbar-brand img
+{
+    height: 70px;
+    padding-left: 10px;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    font-weight: 500;
+    float: right; 
+    text-align: left;
+}
+
+.navbar-toggler
+{
+    outline: none !important;
+}
+
+
+/*--------------- banner-home --------------*/
+
+#banner-home
+{
+    color: #fff;
+    padding-top: 0%;
+    padding-bottom: 0px;
+    
+}
+
+.front-image
+{
+    width:100%;
+    padding-bottom: none;
+}
+
+/*--------------- banner-home2 --------------*/
+
+#banner-home2
+{
+    padding-top: 30px;
+    padding-bottom: 100px;
+}
+.promo-title
+{
+    font-size: 50px;
+    padding-top: 100px;
+    color:darkolivegreen;
+}
+.promo-title-small
+{
+    font-size:25px;
+    font-weight: 200;
+    color:brown;
+    margin-bottom: 30px;
+}
+
+.promo-find-title
+{
+    color:cornflowerblue;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.img-dame
+{
+    width: 100%;
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*---------------about page------------------*/
+
+#about
+{
+    padding: 0px 0;
+    padding-bottom: 40px;
+    background-color:cornsilk;
+}
+
+.banner-om-image
+{
+    width: 100%;
+    opacity: 95%;
+    display:block;
+}
+
+
+.about-img
+{
+    width: 280px;
+    padding-top: 50px;
+    padding-left: 30px 0;
+    
+
+}
+
+.about-title
+{
+    font-size: 50px;
+    font-style: bold;
+    padding-bottom: 50px;
+    padding-top: 60px; 
+}
+
+.about-text
+{
+    margin: 40px;
+    padding-right: 100px 0; 
+}
+
+
+#video
+
+.play-btn
+{
+    width:105px;
+    margin: 50px;
+}
+
+#video a
+{
+    color:forestgreen;
+    font-size: 30px;
+    text-decoration:none;
+}
+
+#history
+{
+    margin: 70px;
+    background-color:white;
+}
+
+.history-title
+{
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+
+.history-text
+{
+    margin: 40px;
+    padding-right: 100px 0; 
+}
+
+.history-img
+{
+    width:100%;
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/*--------------varer page ----------------*/
+
+#varer
+{
+    background-color:aliceblue;
+    padding-bottom: 40px;
+    padding-top: 0px;
+}
+
+.colum 
+{
+    width: 100%;
+}
+
+.varer-title
+{
+    padding-top: 0px;
+    padding-bottom: 30px;
+    margin: 30px; 
+}
+.varer-text-sm
+{
+    margin: 30px;
+}
+
+.img-vegbanner
+{
+  width: 100%;  
+}
+
+.img-order
+{
+    width: 100%;
+}
+
+#prinsiple
+{
+    padding-top: 40px;
+}
+
+.prinsiple-img
+{
+    width: 150px;
+    padding-bottom: 35px;
+ }
+
+.prinsiple-text
+{
+    margin: 30px;
+    padding-bottom: 40px;
+}
+
+.facebook-btn
+{
+    width: 150px;
+    margin-top: 30px;
+    padding-left: 15px;
+    padding-bottom:80px;
+}
+
+#product-promo
+{
+     text-align: center;
+}
+
+#varer2
+{
+    background-color: aliceblue;
+    padding-bottom: 50px;
+    padding-top: 50px; 
+}
+
+/*--------------order page ----------------*/
+
+#how
+{
+    background-color: white;
+    padding-bottom: 100px;
+    padding-top: 0px;
+ }
+
+.how-text-sm
+{
+    padding:110px;
+}
+
+.infograph-img
+{
+    width:100%;
+    padding-top: 0px;
+    padding-bottom: none; 
+}
+
+.promo-order
+{
+    text-align: center;
+}
+
+#product-promo
+{
+    padding-top: 60px; 
+}
+
+
+
+
+
+
+/*--------------------footer section-------------*/
+
+#footer
+{
+    background-image:linear-gradient(to right, #228B22, #006400);
+    color: #fff;
+}
+
+.footer-box
+{
+    margin-top: 30px;
+    padding: 0px;
+    
+    
+}
+
+.footer-text
+{
+    font-size:14px;
+    font-weight: 150;
+    color: cornsilk;
+    margin-bottom: 15px;   
+    
+}
+
+.footer-box img
+{
+    width: 150px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    
+}
+
+.grassborder-img
+{
+    width:100%;
+}
+
